@@ -1,0 +1,44 @@
+{
+  "name": "codex-beacon",
+  "version": "0.1.0",
+  "description": "Codex Beacon is an original floating desktop HUD for Codex: a geometric signal core that shows live turn state, context pressure, generation speed, subscription windows, and tool activity.",
+  "author": {
+    "name": "qingzhh",
+    "url": "https://github.com/qingzhh"
+  },
+  "homepage": "https://github.com/qingzhh/codex-beacon",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qingzhh/codex-beacon.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "plugin",
+    "desktop-hud",
+    "context-window",
+    "usage",
+    "windows"
+  ],
+  "hooks": "./hooks/hooks.json",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Beacon",
+    "shortDescription": "A geometric live-status beacon for Codex sessions",
+    "longDescription": "Codex Beacon is a Windows desktop companion for Codex. It renders an original geometric signal core in a transparent always-on-top window and reads local Codex session telemetry to show the current turn state, context usage, throughput, first-token latency, 5-hour and weekly limits, and tool activity. It does not copy prompts, commands, or credentials into its state files.",
+    "developerName": "qingzhh",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "websiteURL": "https://github.com/qingzhh/codex-beacon",
+    "brandColor": "#FF7A45",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "启动 Codex Beacon 桌宠",
+      "召唤 Codex Beacon 查看本轮上下文与额度"
+    ],
+    "screenshots": []
+  }
+}

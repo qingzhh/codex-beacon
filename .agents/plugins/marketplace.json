@@ -1,0 +1,20 @@
+{
+  "name": "codex-beacon",
+  "interface": {
+    "displayName": "Codex Beacon"
+  },
+  "plugins": [
+    {
+      "name": "codex-beacon",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-beacon"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

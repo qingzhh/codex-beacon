@@ -1,0 +1,14 @@
+{
+  "name": "codex-beacon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Original geometric desktop HUD for Codex sessions.",
+  "scripts": {
+    "start": "node scripts/launch.cjs",
+    "stop": "node scripts/launch.cjs --stop",
+    "test": "node --test test/*.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
