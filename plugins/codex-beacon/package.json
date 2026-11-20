@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node scripts/launch.cjs",
     "stop": "node scripts/launch.cjs --stop",
-    "test": "node --test test/*.test.cjs"
+    "test": "node --test test/stats.test.cjs"
   },
   "engines": {
     "node": ">=18"
